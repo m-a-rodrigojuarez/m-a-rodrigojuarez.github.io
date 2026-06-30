@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 80 80" role="img" aria-label="Deferred requirements">
+  <circle cx="40" cy="40" r="35" fill="#dbe7ff"/>
+  <path d="M27 24h22l7 7v25H27z" fill="none" stroke="#1f6feb" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M48 24v9h8" fill="none" stroke="#1f6feb" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round"/>
+  <path d="M33 43h17M33 51h11" fill="none" stroke="#1f6feb" stroke-width="4.5" stroke-linecap="round"/>
+</svg>

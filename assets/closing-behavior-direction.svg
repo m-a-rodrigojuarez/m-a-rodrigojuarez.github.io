@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" role="img" aria-label="Behavior into direction">
+  <rect width="64" height="64" rx="14" fill="#3b82f6"/>
+  <path d="M15 44c7-15 17-19 34-24" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round"/>
+  <path d="M42 18h8v8" fill="none" stroke="#ffffff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <circle cx="20" cy="42" r="4" fill="#ffffff"/>
+  <circle cx="31" cy="31" r="4" fill="#ffffff"/>
+  <circle cx="44" cy="23" r="4" fill="#ffffff"/>
+</svg>
