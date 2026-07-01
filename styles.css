@@ -1254,6 +1254,9 @@ a {
     color: var(--muted);
     font-size: clamp(0.95rem, 1.18vw, 1.05rem);
     line-height: 1.58;
+     text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
 }
 
 .case-evidence {
