@@ -2107,10 +2107,11 @@ a {
 
 .closing-grid h3 {
     max-width: 260px;
-    margin: 54px 0 14px;
     color: var(--forest);
     font-size: clamp(1.35rem, 2vw, 1.9rem);
     line-height: 1.08;
+    margin: 20px auto 14px;
+    text-align: center;
 }
 
 .closing-grid p {
