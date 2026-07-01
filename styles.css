@@ -1407,7 +1407,7 @@ a {
     padding: 16px;
     border: 1px solid var(--line);
     border-radius: 8px;
-    background: var(--paper);
+    background: rgba(255, 255, 255, 0.84);
     text-align: center;
 }
 
@@ -1694,8 +1694,8 @@ a {
 }
 
 .dependency-grid {
-    display: grid;
-    grid-template-columns: repeat(5, minmax(0, 1fr));
+ display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
     gap: 12px;
     margin-top: 16px;
 }
@@ -1729,6 +1729,9 @@ a {
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.28;
+     text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
 }
 
 .scaling-insight-list {
@@ -1827,6 +1830,9 @@ a {
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.38;
+     text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
 }
 
 .booking-case-page {
