@@ -149,9 +149,11 @@ a {
     text-transform: uppercase;
 }
 
-.index-page main p {
+.index-page main p:not(.eyebrow):not(.section-kicker),
+.index-page .hero-stats span {
     text-align: justify;
     text-align-last: auto;
+    text-justify: inter-word;
     hyphens: auto;
 }
 
