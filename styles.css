@@ -1803,7 +1803,7 @@ a {
 .impact-symbol img {
     width: 45px;
     height: 45px;
-    filter: brightness(0) invert(1);
+  <!--  filter: brightness(0) invert(1);-->
 }
 
 .impact-result-grid h3 {
