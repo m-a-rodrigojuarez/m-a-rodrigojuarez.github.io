@@ -1388,6 +1388,9 @@ a {
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.34;
+    text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
 }
 
 .outcome-grid {
@@ -1946,6 +1949,9 @@ a {
     color: var(--muted);
     font-size: 0.95rem;
     line-height: 1.38;
+    text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
 }
 
 .booking-impact-card {
@@ -2006,6 +2012,9 @@ a {
     font-size: 0.95rem;
     line-height: 1.38;
     max-width: 230px;
+    text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
 }
 
 .portfolio-close-section {
