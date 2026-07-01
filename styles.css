@@ -2096,6 +2096,7 @@ a {
     height: 54px;
     align-items: center;
     justify-content: center;
+    margin: 0 auto;
 }
 
 .closing-icon img {
