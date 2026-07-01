@@ -1700,6 +1700,7 @@ a {
     border: 1px solid var(--line);
     border-radius: 8px;
     background: #fbfdff;
+    text-align: center;
 }
 
 .dependency-icon {
@@ -1707,6 +1708,7 @@ a {
     width: 50px;
     height: 50px;
     margin-bottom: 12px;
+    margin: 0 auto 12px;
  <!-- filter: brightness(0) saturate(100%) invert(33%) sepia(91%) saturate(2395%) hue-rotate(209deg) brightness(95%) contrast(95%);-->
 }
 
