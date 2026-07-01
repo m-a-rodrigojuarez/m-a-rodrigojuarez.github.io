@@ -1420,7 +1420,7 @@ a {
 
 .outcome-grid strong {
     display: block;
-    color: var(--teal);
+    color: var(--ink);
     font-size: clamp(0.96rem, 1.4vw, 1.1rem);
     line-height: 1.12;
     text-align: center;
