@@ -2091,7 +2091,7 @@ a {
 }
 
 .closing-icon {
-    display: inline-flex;
+    display: flex;
     width: 54px;
     height: 54px;
     align-items: center;
