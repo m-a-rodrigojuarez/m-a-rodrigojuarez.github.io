@@ -149,6 +149,12 @@ a {
     text-transform: uppercase;
 }
 
+.index-page main p {
+    text-align: justify;
+    text-align-last: auto;
+    hyphens: auto;
+}
+
 .hero h1 {
     max-width: 820px;
     margin: 0;
