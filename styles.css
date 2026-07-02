@@ -318,6 +318,155 @@ a {
     margin: 0;
 }
 
+.credentials-section {
+    display: grid;
+    gap: 42px;
+    background:
+        radial-gradient(circle at 100% 0%, rgba(78, 161, 255, 0.12), transparent 28%),
+        #f6f9fd;
+}
+
+.credentials-header {
+    display: grid;
+    grid-template-columns: minmax(0, 0.95fr) minmax(300px, 0.8fr);
+    gap: clamp(28px, 6vw, 78px);
+    align-items: end;
+}
+
+.credentials-header h2 {
+    max-width: 760px;
+    color: var(--forest);
+}
+
+.credentials-header p:last-child {
+    margin: 0;
+    color: var(--muted);
+    font-size: clamp(1rem, 1.45vw, 1.18rem);
+    line-height: 1.58;
+}
+
+.credentials-board {
+    display: grid;
+    grid-template-columns: minmax(280px, 0.78fr) minmax(0, 1.22fr);
+    gap: 22px;
+}
+
+.credential-panel {
+    display: grid;
+    align-content: start;
+    gap: 18px;
+    padding: clamp(22px, 3vw, 32px);
+    border: 1px solid #d7dfeb;
+    border-radius: 8px;
+    background: #ffffff;
+}
+
+.credential-panel h3 {
+    margin: 0;
+    color: var(--forest);
+    font-size: clamp(1.35rem, 2vw, 1.9rem);
+    line-height: 1.08;
+}
+
+.credential-list {
+    display: grid;
+    gap: 16px;
+}
+
+.credential-item {
+    display: grid;
+    grid-template-columns: 58px minmax(0, 1fr);
+    gap: 16px;
+    align-items: start;
+    padding: 18px;
+    border: 1px solid rgba(31, 111, 235, 0.14);
+    border-radius: 8px;
+    background: #fbfdff;
+}
+
+.credential-mark {
+    display: inline-grid;
+    width: 58px;
+    height: 58px;
+    place-items: center;
+    border-radius: 16px;
+    background: rgba(31, 111, 235, 0.14);
+    color: var(--blue);
+    font-size: 1rem;
+    font-weight: 950;
+}
+
+.credential-item strong,
+.publication-card strong {
+    display: block;
+    color: var(--forest);
+    font-size: clamp(1.05rem, 1.55vw, 1.38rem);
+    line-height: 1.14;
+}
+
+.credential-item span {
+    display: block;
+    margin-top: 8px;
+    color: var(--muted);
+    font-size: 0.94rem;
+    line-height: 1.4;
+}
+
+.credential-link,
+.publication-meta a {
+    display: inline-flex;
+    width: fit-content;
+    align-items: center;
+    margin-top: 12px;
+    color: var(--blue);
+    font-size: 0.84rem;
+    font-weight: 900;
+    text-decoration: none;
+}
+
+.publication-card {
+    display: grid;
+    min-height: 176px;
+    align-content: space-between;
+    padding: 20px;
+    border: 1px solid rgba(31, 111, 235, 0.16);
+    border-radius: 8px;
+    background:
+        radial-gradient(circle at 100% 0%, rgba(78, 161, 255, 0.14), transparent 34%),
+        #fbfdff;
+}
+
+.publication-card p {
+    margin: 12px 0 0;
+    color: var(--muted);
+    font-size: 0.95rem;
+    line-height: 1.46;
+}
+
+.publication-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    margin-top: 18px;
+    color: var(--blue);
+    font-size: 0.78rem;
+    font-weight: 900;
+    text-transform: uppercase;
+}
+
+.publication-meta span,
+.publication-meta a {
+    padding: 6px 8px;
+    border-radius: 999px;
+    background: rgba(31, 111, 235, 0.09);
+}
+
+.publication-meta a {
+    margin-top: 0;
+    background: var(--blue);
+    color: #fff;
+}
+
 .research-overview {
     position: relative;
     width: 100%;
@@ -2107,10 +2256,10 @@ a {
 
 .closing-grid h3 {
     max-width: 260px;
+    margin: 20px auto 14px;
     color: var(--forest);
     font-size: clamp(1.35rem, 2vw, 1.9rem);
     line-height: 1.08;
-    margin: 20px auto 14px;
     text-align: center;
 }
 
@@ -2179,6 +2328,8 @@ a {
 
     .hero-stats,
     .about-section,
+    .credentials-header,
+    .credentials-board,
     .case-list,
     .case-study-grid,
     .immersive-hero,
@@ -2368,6 +2519,10 @@ a {
     .capability-icon {
         width: 56px;
         height: 56px;
+    }
+
+    .credential-item {
+        grid-template-columns: 1fr;
     }
 
 
