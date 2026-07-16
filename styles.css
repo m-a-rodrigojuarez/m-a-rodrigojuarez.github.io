@@ -1396,6 +1396,14 @@ a {
     background: #ffffff;
 }
 
+.onboarding-case-page .case-layout {
+    grid-template-columns: minmax(520px, 0.88fr) minmax(520px, 1fr);
+}
+
+.onboarding-case-page .case-row p {
+    max-width: none;
+}
+
 .case-narrative {
     display: flex;
     min-height: 100%;
