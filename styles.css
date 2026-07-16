@@ -2248,6 +2248,28 @@ a {
     line-height: 1.35;
 }
 
+.openpay-case-page {
+    background: #ffffff;
+}
+
+.openpay-hero {
+    background:
+        radial-gradient(circle at 72% 42%, rgba(31, 111, 235, 0.22), transparent 30%),
+        linear-gradient(135deg, #020711 0%, #06101d 52%, #07162a 100%);
+}
+
+.openpay-hero-image img {
+    object-position: center right;
+}
+
+.openpay-delivery-grid .booking-full-blueprint-card {
+    min-height: 470px;
+}
+
+.openpay-delivery-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+
 .booking-layout {
     grid-template-columns: minmax(360px, 0.68fr) minmax(560px, 1fr);
     gap: clamp(28px, 4vw, 52px);
