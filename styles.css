@@ -12,7 +12,7 @@
     --shadow: 0 22px 60px rgba(8, 11, 18, 0.16);
     --page-gutter: clamp(20px, 4vw, 56px);
     --content-max: 1840px;
-    --reading-max: 880px;
+    --reading-max: 1180px;
     --section-y: 96px;
 }
 
