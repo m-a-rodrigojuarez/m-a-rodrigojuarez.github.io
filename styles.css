@@ -1114,7 +1114,7 @@ a {
 .immersive-hero-copy {
     position: relative;
     z-index: 2;
-    max-width: 650px;
+    max-width: 760px;
 }
 
 .immersive-hero .project-label {
@@ -1122,9 +1122,9 @@ a {
 }
 
 .immersive-hero h1 {
-    max-width: 620px;
+    max-width: 740px;
     margin: 0;
-    font-size: clamp(3rem, 5vw, 4.9rem);
+    font-size: clamp(2.9rem, 4.6vw, 4.55rem);
     line-height: 1.02;
 }
 
@@ -1735,7 +1735,7 @@ a {
 .scaling-hero-copy {
     position: relative;
     z-index: 3;
-    max-width: 590px;
+    max-width: 760px;
 }
 
 .scaling-hero .project-label {
@@ -1744,10 +1744,10 @@ a {
 }
 
 .scaling-hero h1 {
-    max-width: 560px;
+    max-width: 740px;
     margin: 0;
-    font-size: clamp(3.1rem, 5.3vw, 5.45rem);
-    line-height: 0.98;
+    font-size: clamp(2.9rem, 4.8vw, 4.8rem);
+    line-height: 1;
 }
 
 .scaling-hero-subtitle {
@@ -2068,7 +2068,7 @@ a {
 .booking-hero-copy {
     position: relative;
     z-index: 3;
-    max-width: 620px;
+    max-width: 780px;
 }
 
 .booking-hero .project-label {
@@ -2076,9 +2076,9 @@ a {
 }
 
 .booking-hero h1 {
-    max-width: 640px;
+    max-width: 760px;
     margin: 0;
-    font-size: clamp(3rem, 5.1vw, 5.2rem);
+    font-size: clamp(2.9rem, 4.6vw, 4.75rem);
     line-height: 1;
 }
 
