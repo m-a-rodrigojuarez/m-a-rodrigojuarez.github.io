@@ -2223,6 +2223,12 @@ a {
     background: #dfe9ff;
 }
 
+.booking-blueprint-icon-slot img {
+    width: 28px;
+    height: 28px;
+    object-fit: contain;
+}
+
 .booking-full-blueprint-card h3 {
     margin: 16px 0 12px;
     color: var(--forest);
@@ -2304,11 +2310,12 @@ a {
 }
 
 .openpay-delivery-grid .booking-full-blueprint-card {
-    min-height: 470px;
+    min-height: auto;
 }
 
 .openpay-delivery-grid {
     grid-template-columns: repeat(2, minmax(0, 1fr));
+    align-items: stretch;
 }
 
 .booking-layout {
